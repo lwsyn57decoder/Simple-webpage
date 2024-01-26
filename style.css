@@ -1,0 +1,122 @@
+body {
+	margin-left: 140px;
+	background: url(./images/background.webp) no-repeat;
+	background-size: cover;
+
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	padding: 27px;
+	position: relative;
+	left: 200px;
+	bottom: 77px;
+	color: red;
+	font-weight: bold;
+
+}
+
+#companyName {
+	color: black;
+}
+
+.message-div {
+	position: relative;
+	left: 900px;
+	bottom: 148px;
+}
+
+#message {
+	height: 34px;
+	border-radius: 5px;
+	background: transparent;
+	border: 1px solid orange;
+}
+
+::placeholder {
+	color: red;
+}
+
+#sendMessage {
+	position: relative;
+	right: 4px;
+	height: 34px;
+	border-radius: 5px;
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	border: none;
+}
+
+#webDesign {
+	font-size: 45px;
+	color: green;
+	position: relative;
+	bottom: 85px;
+}
+
+#development {
+	color: orange;
+}
+
+#text {
+	font-size: 19px;
+	width: 530px;
+	color: black;
+	position: relative;
+	bottom: 90px;
+}
+
+form {
+	/*background: url(./images/pic.jpg);*/
+	background-color: orange;
+	position: relative;
+	left: 740px;
+	bottom: 530px;
+	height: 380px;
+	width: 400px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#userEmail {
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid black;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 26px;
+	margin-bottom: 35px;
+}
+
+#password {
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+form h1 {
+	margin-top: 30px;
+}
+
+#login {
+	background-color: purple;
+	color: whitesmoke;
+	font-weight: bold;
+	width: 130px;
+	padding: 8px;
+	border: none;
+	border-radius: 14px;
+	margin-top: 10px;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+}
